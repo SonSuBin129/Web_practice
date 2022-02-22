@@ -1,0 +1,38 @@
+.img_box{
+    top:0;
+    bottom:0;
+    right:-200%;
+    padding:10px;
+}
+
+img{
+    display:block;
+    margin:0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width:1000px){
+    .img_box{
+        text-align:left;
+        left:-255px;
+    }
+}
+
+.nar{
+    top:0;
+    bottom:0;
+    right:-200%;
+    text-align: center;
+}
+
+.nar p{
+    font-size: 20px;
+    font-weight: 300;
+    display:block;
+    margin:0 auto;
+    padding:10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+

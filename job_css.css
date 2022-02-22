@@ -1,0 +1,39 @@
+#main{
+    display:grid;
+    grid-template-rows: 550px 1fr;
+}
+
+.nar{
+    display:grid;
+    grid-template-rows: 300px 250px;
+}
+
+#ex{
+    font-weight: 400;
+    font-size: 20px;
+    padding:50px 50px 20px 50px;
+}
+
+#ex_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#ex ul{
+    padding-left: 100px;
+}
+
+#future{
+    font-weight: 400;
+    font-size: 20px;
+    padding:10px 50px 20px 50px;
+}
+
+#future_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#future_main{
+    padding-left: 80px;
+}
