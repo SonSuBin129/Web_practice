@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/job_css.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400&family=Open+Sans+Condensed:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="top">
+        <h1 id="title"><a href="welcome.html">Web Practice</a></h1>
+        <audio id="audiobox" src="./data/song4.mp3" loop controls></audio>
+    </div>
+    <div id="article">
+        <div id="side">
+            <ul>
+                <li><a href="intro.html">Introduce Myself</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="job.html">Job history</a></li>
+                <li><a href="monstax.html">My favorite Idole</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div class="nar">
+                <div id="ex">
+                    <p id="ex_title">&lt;알바이력&gt</p>
+                    <ul>
+                        <li>스시야 (기간:2020.05 ~ 2020.08)</li>
+                        <li>더벤티 (기간:2020.09 ~ 2021.03)</li>
+                        <li>CU편의점 (기간:2021.03 ~ 2021.07)</li>
+                        <li class="now">북두칠성학원 (기간:2021.06 ~)</li>
+                        <li>과외 (기간:2021.07 ~ 2022.01)</li>
+                        <li class="now">해커스학원 (기간:2022.02 ~)</li>
+                    </ul>
+                </div>
+                <div id="future">
+                    <p id="future_title">&lt;원하는 분야&gt</p>
+                    <p id="future_main">
+                        현재는 백엔드를 희망하고 있다.<br>
+                        금융권, 게임, IT 등등 어디로 가든 상관은 없고 난 그냥 내 역할 잘할 수 있는데로 가고싶다.<br>
+                        이번년도 휴학을 통해서 건강, 확신을 챙기려고 한다.<br>
+                        망가졌던 생활패턴 건강을 다시 잡고, 꾸준히 공부하면서 실력을 키워서 불안하지 않도록 성장하는게 목표이다.<br>
+                        여행도 다니면서 환기의 시간을 가져 사람 자체가 여유로워지면 더없이 좋을 것 같다.😎<br>
+                        본인이 원하는 분야가 있다면 댓글 달아!🔥
+                    </p>
+                </div>
+            </div>
+            <!-- #################채팅기능############################ -->
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://web-nu21kqnp9k.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <!-- #################채팅기능############################ -->
+
+        </div>
+    </div>
+</body>
+
+</html>
