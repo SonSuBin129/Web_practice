@@ -1,0 +1,92 @@
+#main{
+    display:grid;
+    grid-template-rows: 120px 450px 450px 250px 1fr;
+}
+
+/* ################################member파트################################### */
+#member{
+    font-size: 20px;
+}
+
+#member_title{
+    font-size: 23px;
+    padding:25px 0 10px 50px;
+}
+
+#member ul{
+    padding-left: 100px;
+    font-weight: 300;
+}
+
+/* ################################love파트################################### */
+#love_title{
+    font-size: 23px;
+    padding: 15px 0 10px 50px ;
+}
+
+#love_content{
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 100px;
+}
+
+.love_dance{
+    display: grid;
+    grid-template-columns: 530px 1fr;    
+}
+
+#love_img{
+    display:grid;
+    grid-template-columns: 250px 250px;
+    padding-top: 10px;
+    margin-left:30px;
+}
+
+.love_imgbox{
+    text-align: center;
+}
+
+#shownu1{
+    padding-top: 10px;
+}
+
+#l_dance{
+    padding:10px 0 0 20px;
+}
+
+/* ################################bestsong파트################################### */
+#bestsong_title{
+    font-size: 23px;
+    padding: 15px 0 10px 50px ;
+}
+
+#bestsong_content{
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 100px;
+}
+
+#dance{
+    display:grid;
+    grid-template-columns: 500px 1fr;
+    padding:5px 0 0 50px;
+}
+
+.dance_item{
+    padding: 10px 0;
+}
+
+/* ################################monminsu파트################################### */
+#monminsu_title{
+    font-size: 23px;
+    padding: 10px 0 20px 50px ;
+}
+
+#item{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.img_box{
+    padding-left: 100px;
+}

@@ -1,0 +1,38 @@
+#main{
+    display:grid;
+    grid-template-rows: 200px 200px 200px 1fr;
+}
+
+.nar{
+    padding:50px 10px 50px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 100px;
+}
+
+#f_school{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+
+#s_school{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+
+#t_school{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+
+#fo_school{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.img_box{
+    height: 160px;
+    padding: 20px 50px;
+    text-align: center;
+}

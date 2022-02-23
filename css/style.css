@@ -1,0 +1,65 @@
+/* #############L################common#################3#### */
+*{
+    margin:0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* #############################top#################3#### */
+#top{
+    background-color:#FDEBC8;
+    position: relative;
+    height: 170px;
+    border-bottom: dotted 1px gray;
+}
+#title{
+    text-align: center;
+    font-size: 60px;
+    margin:0px;
+    padding-top: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#audiobox{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    right:0px;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+
+/* #############################article#################3#### */
+#article{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+}
+
+/* #############################side#################3#### */
+
+#side{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding:15px 0px 0px 8px;
+}
+
+/* #############################main#################3#### */
+
+#main{
+    border-left: dotted 1px gray;
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    font-family: 'Gaegu', cursive;
+}
+
+/* #############################채팅기능#################3#### */
+
+#disqus_thread{
+    padding:20px;
+    top:0;
+    bottom:0;
+    right:-200%;
+}
